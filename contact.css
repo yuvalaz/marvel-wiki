@@ -1,0 +1,22 @@
+#spiderman_cowebs{
+    width: 7vw;
+    height: 12vw;
+    position: relative;
+    left: 18vw;
+    bottom: 35vh;
+    animation-name: spidermanupside;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    
+    
+}
+@keyframes spidermanupside {
+    0%  {bottom: 35vh;}
+    20%  {bottom: -0.5vh;}
+    28%  {bottom: 3vh;}
+    35%  {bottom: 1vh;}
+    90%  {bottom: 0vh;}
+    100%  {bottom: 35vh;}
+
+    
+}

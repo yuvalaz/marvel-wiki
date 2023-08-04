@@ -1,0 +1,16 @@
+#main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.video{
+    width: 33%;
+    height: 38%;
+}
+@media screen and (max-width: 600px){
+    .video{
+        width: 80%;
+        height: 50%;
+    }
+    
+}
