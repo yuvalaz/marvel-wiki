@@ -5,7 +5,7 @@
     width: 7vw;
     height: 12vw;
     position: relative;
-    left: 18vw;
+    left: 0vw;
     bottom: 35vh;
     animation-name: spidermanupside;
     animation-duration: 7s;
@@ -22,4 +22,42 @@
     100%  {bottom: 35vh;}
 
     
+}
+#mainContact{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    z-index: 3;
+    height: 100vh;
+}
+#formDiv{
+    width: 30vw;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15vh;
+    justify-content: flex-end;
+
+}
+.input{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 4px;
+    box-shadow: 5px 5px 20px;
+    background-color: rgb(251, 227, 190);
+
+
+}
+#button{
+    width: 4vw;
+    height: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#message{
+    height: 16vh;
 }

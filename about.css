@@ -1,0 +1,45 @@
+
+#spiderman_cowebs{
+    width: 7vw;
+    height: 12vw;
+    position: relative;
+    left: -20vw;
+    bottom: 35vh;
+    animation-name: spidermanupside;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    
+    
+}
+@keyframes spidermanupside {
+    0%  {bottom: 35vh;}
+    20%  {bottom: -0.5vh;}
+    28%  {bottom: 3vh;}
+    35%  {bottom: 1vh;}
+    90%  {bottom: 0vh;}
+    100%  {bottom: 35vh;}
+
+    
+}
+#mainAbout{
+    display: flex;
+    justify-content: center;
+    height: 108vh;
+}
+
+
+#about{
+    width: 70vw;
+    height: 80vh;
+}
+#pabout{
+    font-size: 20px;
+    line-height: 150%;
+    text-shadow: 2px 2px 20px;
+}
+h1{
+    text-shadow: 2px 2px 20px; 
+} 
+#footer{
+    height: 18vh;
+}
