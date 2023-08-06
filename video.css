@@ -8,13 +8,7 @@
 .video:hover{
     border-radius: 0%;
 }
-@media screen and (max-width: 600px){
-    .video{
-        width: 80%;
-        height: 50%;
-    }
-    
-}
+
 #mainVideo{
     display: flex;
     display: flex;
@@ -33,4 +27,16 @@
     height: 18vh;
     margin-top: 160vh;
     background-color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 600px){
+    .video{
+        width: 80%;
+        height: 50%;
+    }
+    #footerVideo{
+        margin-top: 900vh;
+        height: 28vh;
+    }
+    
 }

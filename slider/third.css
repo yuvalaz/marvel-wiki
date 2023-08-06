@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(222, 68, 29);
+    overflow-y: hidden ;
+ 
+
+}
+h1{
+    text-align: center;
+}
+#theSlider {
+    width: 60vw;
+    height: 80vh;
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -8;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-duration: 13.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+
+    
+}
+ .backgroundImg{
+    width: 60vw;
+    height: 80vh;
+    position: absolute;
+      
+}
+
+.backgroundImg:hover{
+    position: relative;
+}

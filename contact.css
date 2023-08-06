@@ -61,3 +61,11 @@
 #message{
     height: 16vh;
 }
+@media screen and (max-width: 600px){
+    #button{
+        width: 14vw;
+    }
+    .input{
+        width: 37vh;
+    }
+}

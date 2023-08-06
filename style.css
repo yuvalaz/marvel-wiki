@@ -96,4 +96,22 @@ body{
 #pfooter{
     text-align: center;
 }
-
+@media screen and (max-width: 600px){
+    #footer{
+        height: 28vh;
+    }
+    #footerMovies{
+        margin-top: 805vh;
+    }
+    .moviesPic{
+        height: 70vh;
+    }
+    #divtext{
+        flex-wrap: wrap;
+    }
+    .text{
+        position: relative;
+        right: 10%;
+        font-size: 12px;
+    }
+}
