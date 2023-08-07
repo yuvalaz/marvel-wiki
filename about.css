@@ -35,10 +35,10 @@
 #pabout{
     font-size: 20px;
     line-height: 150%;
-    text-shadow: 2px 2px 20px;
+    text-shadow: 0.5px 0.5px 2px;
 }
 h1{
-    text-shadow: 2px 2px 20px; 
+    text-shadow: 0.5px 0.5px 2px;
 } 
 #footerAbout{
     height: 18vh;
